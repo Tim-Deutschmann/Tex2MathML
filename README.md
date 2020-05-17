@@ -68,12 +68,12 @@ SNIP
 
 END SNIP
 
-The file tex_symbols contains a list of 1:1 latex: MathML translations. The file format is found in 'tex2mml_data_types.h'
+The file tex_symbols.txt contains a list of 1:1 latex: MathML translations. The file format is found in 'tex2mml_data_types.h'
 looking at the definition of the struct TexSymbol_s data type.
 
 Compile it with a simple make on a linux system with g++ installed.
 On other systems and using other compilers please modify 'makefile' to make it fit your needs.
 
-If you want assess the performance of the translator, have a look at http://www.tim-deutschmann.de. All formulas on the page are created using the Tex2MathML converter.
+If you want to assess the performance of the translator, have a look at http://www.tim-deutschmann.de. All formulas on the page are created using the Tex2MathML converter.
 
 Cheers
